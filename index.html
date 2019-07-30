@@ -1,88 +1,41 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8">
-  <title>ハイパーリンクの練習</title>
-　<link rel="stylesheet" herf="mystyle.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="mystyle.css">
+<title>前期末プロジェクト</title>
 </head>
 <body>
-  <p>アンカータグの練習です</p>
-  <a id="def">ここがdefの場所</a>
-  <a herf="a.html">相対パスでリンクします</a><br>
-
-  <a href="https://www.josai.ac.jp/education/manegement/index.html">絶対パスで城西大学経済学部へリンクします</a>
-  <br>
-  <a href="https://www.josai.ac.jp/"><imagsrc="./josai.png" alt="城西大学ホームページ</a>
-  <br>
-  <a href="a.html" target="_blank">別画面を開いてリンクします</a><br>
-  <a href="a.html" target="_self">リンク元と同じフレームにリンクします</a><br>
-  <a href="a.html" target="_parent">ひとつ上の親フレームにリンクします</a><br>
-  <a href="a.html" target="_top">フレームをすべて解除してリンクします</a><br>
-  <a href="a.html" target="abc">abcという名前のフレームにリンクします</a><br>
-  <!--文字の大きさの練習-->
-  <h1>Hello World</h1>
-  <h2>Hello World</h2>
-  <h3>Hello World</h3>
-  <ol>
-      <li>ほげほげ</li>
-      <li>ほにゃらら</li> 
-  </ol>
-
-  <a id="abc">ここがabcの場所</a>
-<dl>
-<dt>作者</dt>
-<dd>ジョン</dd>
-<dd>ポール</dd>
-<dd>ジョージ</dd>
-<dd>リンゴ</dd>
-</dl>
-
-<dl>
-<dt lang="ja"><dfn>色</dfn></dt>
-<dt lang="en-US"><dfn>color</dfn></dt>
-<dt lang="en-GB"><dfn>colour</dfn></dt>
-<dd>可視光線の波長の長短によって人が視覚でかんっじ分けられる色覚・色刺激のこと。</dd>
-</dl>
-
-<p>ゲームの得点は以下の順序で計算されます。</p>
-<dl>
-<dt>金貨を取得している場合</dt>
-<dd>金貨一枚につき10ポイント加算されます。</dd>
-<dt>枚数に関わらず、金貨と銀貨の両方を獲得している場合</dt>
-<dd>ボーナスポイントとして20ポイント加算されます。</dd>
-</dl>
-<dt>それ以外の場合</dt>
-<dd>ポイントは加算されません。</dd>
-</dl>
-<a id="abc">ファイルの途中にabcという名前を付けます</a><br>
-<a id="#abc">abcと名前を付けた場所へリンクします</a><br>
-<a herf="a.html#def">別ファイルの名前を付けた場所へリンクします</a>
-<aside class="ad">
-<h1>広報</h1>
- <a href="https://www.josai.ac.jp/club/jyosisofuti.html">
- <section>
- <h1>城西大学　女子ソフトボール部</h1>
- <p>第26回関東学生ソフトボール選手大会にて</p>
- <p>インカレ出場権獲得</p>
- </section></a>
- <a href="https://www.josai.ac.jp/news/20180523-02.html">
- <section>
- <h1>城西大学　「陸上競技部」「男子駅伝部」「女子駅伝部」</h1>
- <p>第97回関東学生陸上競技対抗選手大会</p>
- <p>出場選手の壮行会を開催</p>
- </section>  
- </a>
-</aside>
-
-<nav>
+<h1>自己紹介</h1>
+<dt>名前　　鈴木　空</dt>
+<dt>年齢　　19歳</dt>
+<dt>誕生日　11月4日</dt>
+<dt>血液型　B型</dt>
+<dt>部活　　<a id="def"></a>
+<a href="a.html">硬式野球部</a></dt>
+<dt>出身　　埼玉県川口市</dt>
+<h1>趣味について</h1>
+<details>
+<summary>好きな漫画</summary>
+<p>第1位　NARUTO</p>
+<img src="https://vod-trend.com/wp-content/uploads/2018/03/naruto.jpg" width="314" height="229">
+<p>第2位　今日から俺は！！</p>
+<img src="https://images-na.ssl-images-amazon.com/images/I/51D6fHA89SL._SX351_BO1,204,203,200_.jpg" width="229" height="314">
+<p>第3位　転生したらスライムだった件</p>
+<img src="https://tapittalk.com/wp-content/uploads/2018/08/31f1f7fd23c21cb3848b8df390f9aa6e.jpg" width="314" height="291">
+</details>
+<details>
+<summary>今はまっているゲーム</summary>
+<h2>大乱闘スマッシュブラザーズspecial</h2>
+<p>よく使うキャラクター</p>
 <ul>
-<li><a href="https://www.josai.ac.jp/club/jyosisofuto.html">女子ソフトボール部</a></li>
-<li><a href="https://www.josai.ac.jp/club/ekiden_hakone.html">男子駅伝部</a></li>
-<li><a href="https://www.josai.ac.jp/club/ekiden_josiekiden.html">女子駅伝部</a></li>
-<li><a>クラブ・サークル活動</a></li>
-</ul>  
-</nav>
+<li>Mr.ゲーム＆ウォッチ</li>
+<li>ルキナ</li>
+<li>クッパ</li>
+<li>ファルコ</li>
+<li>ピット</li>
+</ul>
+<p>やればやっただけ強くなれて技の出し方やコンボ、読みあいなど奥が深い格闘技ゲームになっています。とても楽しいのでぜひやってみてください。</p>
+</details>
 </body>
 </html>
-  
